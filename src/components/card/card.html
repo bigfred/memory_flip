@@ -1,0 +1,10 @@
+<div class="flip-container" >
+	<div class="flipper" [@cardFlip]="cardState" (@cardFlip.done)="handleDone( $event )">
+		<div class="front">
+			<!-- Front -->
+		</div>
+		<div class="back">
+			<img [src]="card.image">
+		</div>
+	</div>
+</div>

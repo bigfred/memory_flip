@@ -1,0 +1,19 @@
+gameheader {
+    .gameHead {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    ion-icon {
+        font-size: 2em;
+        margin-left: 10px;
+    }
+
+    p.tries {
+        float: right;
+        margin: 0px;
+        font-size: 2em;
+        display: block;
+        padding-right: 30px;
+        padding-top: 10px;        
+    }
+}
